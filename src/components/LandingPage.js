@@ -1,3 +1,4 @@
+// Import Dependencies
 import '../styles/LandingPage.css';
 
 function LandingPage() {
