@@ -20,3 +20,8 @@ npm run start
 Run the above commands in order to install all dependencies, build the app, and start it on a local port, respectively.
 
 * Note: Any redirects, such as with OAuth verification, will likely not work locally, since they usually only permit redirects to prod.
+
+## Tests
+
+It is **HIGHLY RECOMMENDED** you write unit tests in the format of the provided example, src/LandingPage.test.js!
+These will run on merge requests and **must** pass before merging.
