@@ -1,13 +1,13 @@
 // Import Dependencies
 import '../styles/LandingPage.css';
+import Navbar from './Navbar';
 
 function LandingPage() {
   return (
     <div className="LandingPage">
       <header className="LandingPage-header">
-        <p>
-          Test
-        </p>
+        <Navbar />
+        
       </header>
     </div>
   );
