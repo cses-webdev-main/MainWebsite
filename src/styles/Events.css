@@ -1,0 +1,10 @@
+.eventsContainer {
+	background-color: black;
+	text-align: center;
+}
+
+.eventsNavbar {
+	height: 100vh;
+	font-size: 30px;
+	color: white;
+}

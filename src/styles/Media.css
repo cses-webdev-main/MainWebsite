@@ -1,0 +1,10 @@
+.mediaContainer {
+	background-color: black;
+	text-align: center;
+}
+
+.mediaNavbar {
+	height: 100vh;
+	font-size: 30px;
+	color: white;
+}
