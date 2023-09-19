@@ -17,8 +17,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   // Lists site URL endpoints and the respective pages to load
   {
-      path: "/",
-      element: <Home />,
+    path: "/",
+    element: <Home />,
   },
   {
     path: "/about",
