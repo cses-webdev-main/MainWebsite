@@ -1,0 +1,10 @@
+.aboutContainer {
+	background-color: black;
+	text-align: center;
+}
+
+.aboutNavbar {
+	height: 100vh;
+	font-size: 30px;
+	color: white;
+}

@@ -1,0 +1,22 @@
+.homeContainer {
+  background-color: black;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+}
+
+.homeNavbar {
+  width: 100%;
+  font-size: 25px;
+  color: white;
+}
+
+.homeContent {
+  height: 100vh;
+}
+
+.homeFooter {
+  width: 100%;
+  font-size: 25px;
+  color: white;
+}
