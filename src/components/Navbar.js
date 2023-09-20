@@ -6,7 +6,7 @@ export default function(logged){
     // logged = false
     return(
         <div className="navContainer">
-            <Link to="/"><img src="../../public/cses-webdev-transparent.png" alt="CSESWebDev Logo" className="logo"/></Link>
+            <Link to="/"><img src="../../cses-webdev-transparent.png" alt="CSESWebDev Logo" className="logo"/></Link>
 
             <div className="navText">
                 {logged && <Link to="/dashboard" className="navLinks">Dashboard</Link>}

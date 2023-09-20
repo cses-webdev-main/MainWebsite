@@ -17,3 +17,7 @@
     text-decoration: none;
     color: white;
 }
+
+.navText :hover {
+    color: #5780BB;
+}
