@@ -1,3 +1,4 @@
+// Import Dependencies
 import "../styles/Media.css"
 import Navbar from "./Navbar";
 import Footer from "./Footer";

@@ -6,7 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // Import Components
-import HomePage from './components/Home';
+import Home from './components/Home';
+import AboutUs from './components/AboutUs';
+import Events from './components/Events';
 import Media from './components/Media';
 
 // Create router to redirect by refreshing (HashRouting is not supported for GitHub Pages)
@@ -14,14 +16,21 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   // Lists site URL endpoints and the respective pages to load
   {
-      path: "/",
-      element: <HomePage />,
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/about",
+    element: <AboutUs />,
+  },
+  {
+    path: "/events",
+    element: <Events />,
   },
   {
     path: "/media",
-    element: <Media />
-  },
-  ],
+    element: <Media />,
+  },],
   {
       basename: "/MainWebsite",
   },
