@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import "../styles/Navbar.css"
 
 export default function(logged){
-    // logged = false
+    logged = false
     return(
         <div className="navContainer">
             <Link to="/"><img src="../../cses-webdev-transparent.png" alt="CSESWebDev Logo" className="logo"/></Link>

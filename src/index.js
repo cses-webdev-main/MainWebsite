@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // Import Components
 import HomePage from './components/Home';
+import Media from './components/Media';
 
 // Create router to redirect by refreshing (HashRouting is not supported for GitHub Pages)
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,10 +16,16 @@ const router = createBrowserRouter([
   {
       path: "/",
       element: <HomePage />,
-  },],
+  },
+  {
+    path: "/media",
+    element: <Media />
+  },
+  ],
   {
       basename: "/MainWebsite",
   },
+
 );
 
 // Render entire app, and use StrictMode to prevent bad compiling
