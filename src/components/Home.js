@@ -2,6 +2,7 @@
 import '../styles/Home.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import Projects from '../projects-data';
 
 function Home() {
   return (
