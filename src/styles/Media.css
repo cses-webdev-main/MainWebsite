@@ -1,10 +1,40 @@
-.mediaContainer {
-	background-color: black;
-	text-align: center;
+.media-page{
+    text-align: center;
+    background-color: #234F8F;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
-.mediaNavbar {
-	height: 100vh;
-	font-size: 30px;
-	color: white;
+
+.calendar {
+    border: solid white;
+    border-radius: 10px;
+    width: 50vw;
+    height: 50vh;
+    background-color: #043174;
+    margin:auto;
+}
+
+.connect-with-us {
+    border: solid white;
+    border-radius: 10px;
+    width: 30vw;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 20vw;
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+
+.media-icon {
+    color: white;
+    height: 50px;
+    width: 50px;
 }
