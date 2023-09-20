@@ -1,5 +1,3 @@
-/* Temporary CSS */
-
 
 .Home-header {
   min-height: 100vh;
@@ -78,7 +76,7 @@
   text-decoration: none;
   color: white;
   background-color: #03214F;
-  border-radius: 5%/20%;
+  border-radius: 10px;
   padding-top: 0.6em;
   padding-bottom: 0.8em;
   padding-right: 2em;

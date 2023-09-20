@@ -10,7 +10,7 @@ function Home() {
         <Navbar />
         <div className="banner">
           <div id="banner-text">
-            <h1 style={{fontWeight:"900", marginBottom: 0, fontStretch:"200%"}}>CSES WebDev</h1>
+            <h1 style={{fontWeight:"900", marginBottom: 0}}>CSES WebDev</h1>
             <h2 style={{marginTop: "3vh"}}>Bringing web design to UCSD and beyond</h2>
           </div>
         </div>
@@ -49,7 +49,7 @@ function Home() {
 
           <div className="title" style={{marginBottom: "3em"}}>
             <h2>Interested in joining our Fall Cohort? Apply now!</h2>
-            <a href="#" id="apply-button">Apply</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd578y6E_BOvy9HRRJiW0lxNF4wl_4QW5DaqpTfrQ9Uo3rl7w/viewform" target="__blank" id="apply-button">Apply</a>
           </div>
         </div>
         

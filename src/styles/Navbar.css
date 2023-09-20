@@ -1,5 +1,5 @@
 .navContainer {
-    background-color: #03214F;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -15,7 +15,7 @@
 
 .navLinks {
     text-decoration: none;
-    color: white;
+    color: #03214F;
 }
 
 .navText :hover {
