@@ -1,0 +1,85 @@
+/* Temporary CSS */
+
+
+.Home-header {
+  min-height: 100vh;
+  
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.banner {
+  font-size: calc(15px + 2vmin);
+  width: 100%;
+  background-image: url("../../public/home_images/home_banner.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 18em;
+}
+
+
+#banner-text {
+  bottom: 0;
+  margin-left: 5vw;
+  padding-top: 6em;
+  padding-bottom: 8vh;
+}
+
+.icon-section {
+  background-image: url("../../public/home_images/home_bg.png");
+  background-repeat: no-repeat;
+  background-size: 102vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3em;
+  padding-bottom: 3em;  
+}
+
+.icon-text{
+  text-align: center;
+  padding-top: 3vh;
+}
+
+.project-section {
+  background-image: linear-gradient(#234F8F, #5780BB);
+  height:max-content;
+  padding-bottom: 3em;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  text-align: center;
+  padding-top: 10vh;
+  margin-top: 0;
+}
+
+.project-text {
+  font-size:small;
+}
+
+#project-image {
+  border: solid;
+  border-radius: 10;
+  top: -10px;
+  left: -10px;
+  z-index: 10;
+  /* Above border styling may not work yet, can't test bc image not showing up. */
+}
+
+#apply-button {
+  text-decoration: none;
+  color: white;
+  background-color: #03214F;
+  border-radius: 5%/20%;
+  padding-top: 0.6em;
+  padding-bottom: 0.8em;
+  padding-right: 2em;
+  padding-left: 2em;
+}
