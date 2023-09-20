@@ -1,20 +1,12 @@
 .navContainer {
     background-color: white;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 15vh;
-}
-
-.navText {
-    display: flex;
-    justify-content: space-around;
-    width: 45%;
     flex-direction: row;
     align-items: center;
-    position: relative;
-    right: 50px;
+    min-width: 725px;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
 }
 
 #logo {
@@ -24,11 +16,13 @@
     height: 50px;
 }
 
-.navLinks {
-    text-decoration: none;
-    color: #043174;
+.navText {
+    position: relative;
+    right: 50px;
 }
 
-.navText :hover {
-    color: #5780BB;
+.navLinks {
+    text-decoration: none;
+    margin-left: 50px;
+    color: #043174;
 }
