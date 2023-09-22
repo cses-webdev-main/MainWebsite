@@ -1,10 +1,101 @@
 .aboutContainer {
-	background-color: black;
 	text-align: center;
+	background-color: #234F8F;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	
 }
 
-.aboutNavbar {
+/* .aboutNavbar {
 	height: 100vh;
 	font-size: 30px;
 	color: white;
+} */
+
+.mission-container{
+	background-image: url("../images/about_images/about_bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0;
+	width: 100%;
+	height: max-content;
+
 }
+
+.mission-statement{
+	width: 75vw;
+	margin: auto;
+	padding: 2em;
+}
+
+.intro-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.for-client, .for-student, .different {
+	display: flex;
+	justify-content: space-between;
+	width: 75vw;
+	margin-top: 8vh;
+	gap: 3em;
+}
+
+.different {
+	margin-bottom: 8vh;
+}
+
+.img {
+	width: 30vw;
+	height: 30vh;
+}
+
+.intro-text {
+	text-align: left;
+}
+
+.img-container {
+	display: flex;
+	align-items: center;
+	width: 30vw;
+	height: 30vh;
+	position: relative;
+}
+
+.img-container:after {
+	
+	content:"";
+	position:absolute;
+	left:-0.5em;
+	right:1em;
+	top:-0.4em;
+	bottom:	0.5em;
+	border:2px solid;
+	border-radius: 10px;
+}
+
+.team-section {
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	color: black;
+	margin: auto;
+	padding: 10vw;
+}
+
+.summer p {
+	margin: 0;
+}
+
+.summer {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.cohorts{
+	padding: 15vh 0 20vh 0;
+}
+
