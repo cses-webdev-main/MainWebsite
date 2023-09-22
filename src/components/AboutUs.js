@@ -5,7 +5,7 @@ import Footer from './Footer';
 import third from '../images/about_images/about_img_1.png'
 import second from '../images/about_images/about_img_2.png'
 import student from '../images/about_images/about_img_3.png'
-
+import Board from '../board'
 
 
 function AboutUs() {
@@ -73,6 +73,56 @@ function AboutUs() {
           </div>
 
         </div>
+      </div>
+
+      <div className="team-section">
+        {Board.map(
+          member => {
+            return(
+              <div key={member.name}>
+                <h3>{member.name}</h3>
+                <h4>{member.position}</h4>
+              </div>
+              
+            )
+          }
+        )}
+
+      </div>
+
+      <div className="cohorts">
+        <h2>Summer 2023 Cohort</h2>
+        <div className="summer">
+            <div>
+              <h3>CSES WebDev</h3>
+              <p>Kevin Kim</p>
+              <p>Angela Tsai</p>
+              <p>Saleha Ahemdi</p>
+              <p>Sebstian Mejia</p>
+              <p>Swati Menon</p>
+              <p>Rachel Paner</p>
+            </div>
+
+            <div>
+              <h3>Tritones</h3>
+              <p>Ryan Rickey</p>
+              <p>Nick Campos</p>
+              <p>William Zhao</p>
+              <p>Shawn Malal</p>
+              <p>Anjili Mathi</p>
+              <p>Sophia Fang</p>
+            </div>
+
+            <div>
+              <h3>Dollar Lunch Club</h3>
+              <p>Snigdha Allada</p>
+              <p>Julianna Hall</p>
+              <p>Ketan Jain</p>
+              <p>Alexa Anderson</p>
+            </div>
+            
+        </div>
+
       </div>
 
 

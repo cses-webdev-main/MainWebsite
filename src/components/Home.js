@@ -45,7 +45,8 @@ function Home() {
             return(
             <div key={p.projectName} className="project-item">
               <h2>{p.projectName}</h2>
-              <img src={p.imageURL} alt="project-logo" className="project-img" />
+              <div className="img-container">
+              <img src={p.imageURL} alt="project-logo" className="project-img" /> </div>
               <p className="project-text">Developers: {p.developer.join(", ")}</p>
               <p className="project-text">Designers: {p.designer.join(", ")}</p>
             </div>)

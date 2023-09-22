@@ -49,9 +49,6 @@
 .img {
 	width: 30vw;
 	height: 30vh;
-
-	border: solid aquamarine;
-	border-radius: 10px;
 }
 
 .intro-text {
@@ -61,4 +58,44 @@
 .img-container {
 	display: flex;
 	align-items: center;
+	width: 30vw;
+	height: 30vh;
+	position: relative;
 }
+
+.img-container:after {
+	
+	content:"";
+	position:absolute;
+	left:-0.5em;
+	right:1em;
+	top:-0.4em;
+	bottom:	0.5em;
+	border:2px solid;
+	border-radius: 10px;
+}
+
+.team-section {
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	color: black;
+	margin: auto;
+	padding: 10vw;
+}
+
+.summer p {
+	margin: 0;
+}
+
+.summer {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.cohorts{
+	padding: 15vh 0 20vh 0;
+}
+

@@ -60,17 +60,27 @@
 }
 
 .project-item {
-  width: 30vw;
+  width: 28vw;
 }
 
 .project-img {
-  width: 29vw;
+  width: 27vw;
+}
 
-  border: solid aquamarine;
+.img-container {
+  position: relative;
+}
+
+.img-container:before {
+  content:"";
+  position:absolute;
+  left:-0.5em;
+  right:1em;
+  top:-0.4em;
+  bottom:	0.5em;
+  border:2px solid;
   border-radius: 10px;
-  top: -10px;
-  left: -10px;
-  z-index: 10;
+  
 }
 
 #apply-button {
