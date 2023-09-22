@@ -27,6 +27,7 @@
   height: 50vh;
   display: flex;
   justify-content: space-around;
+  /* flex-wrap: wrap; */
   align-items: center;
 }
 
@@ -45,7 +46,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  
+  margin: auto;
 }
 
 .title {
@@ -58,13 +59,18 @@
   font-size:small;
 }
 
-#project-image {
-  border: solid;
-  border-radius: 10;
+.project-item {
+  width: 30vw;
+}
+
+.project-img {
+  width: 29vw;
+
+  border: solid aquamarine;
+  border-radius: 10px;
   top: -10px;
   left: -10px;
   z-index: 10;
-  /* Above border styling may not work yet, can't test bc image not showing up. */
 }
 
 #apply-button {
@@ -76,4 +82,8 @@
   padding-bottom: 0.8em;
   padding-right: 2em;
   padding-left: 2em;
+}
+
+#apply-button :hover{
+  cursor: pointer;
 }

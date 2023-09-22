@@ -1,10 +1,64 @@
 .aboutContainer {
-	background-color: black;
 	text-align: center;
+	background-color: #234F8F;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	
 }
 
-.aboutNavbar {
+/* .aboutNavbar {
 	height: 100vh;
 	font-size: 30px;
 	color: white;
+} */
+
+.mission-container{
+	background-image: url("../images/about_images/about_bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0;
+	width: 100%;
+	height: max-content;
+
+}
+
+.mission-statement{
+	width: 75vw;
+	margin: auto;
+	padding: 2em;
+}
+
+.intro-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.for-client, .for-student, .different {
+	display: flex;
+	justify-content: space-between;
+	width: 75vw;
+	margin-top: 8vh;
+	gap: 3em;
+}
+
+.different {
+	margin-bottom: 8vh;
+}
+
+.img {
+	width: 30vw;
+	height: 30vh;
+
+	border: solid aquamarine;
+	border-radius: 10px;
+}
+
+.intro-text {
+	text-align: left;
+}
+
+.img-container {
+	display: flex;
+	align-items: center;
 }

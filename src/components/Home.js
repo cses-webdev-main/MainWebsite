@@ -4,6 +4,10 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import Projects from '../projects-data';
 
+import DesignSVG from "../images/home_images/design.svg"
+import DevSVG from "../images/home_images/develop.svg"
+import SusSVG from "../images/home_images/sustain.svg"
+
 function Home() {
   return (
     <div className="HomePage">
@@ -18,17 +22,17 @@ function Home() {
 
         <div className="icon-section">
           <div>
-            <img src="../../public/home_images/design.png" alt="design-icon" />
+            <img src={DesignSVG} alt="design-icon" />
             <h2 className="icon-text">Design</h2>
           </div>
 
           <div>
-            <img src="../home_images/develop.png" alt="develop-icon" />
+            <img src={DevSVG} alt="develop-icon" />
             <h2 className="icon-text">Develop</h2>
           </div>
 
           <div>
-            <img src="../../public/home_images/sustain.png" alt="sustain-icon" />
+            <img src={SusSVG} alt="sustain-icon" />
             <h2 className="icon-text">Sustain</h2>
           </div>
         </div>
@@ -39,9 +43,9 @@ function Home() {
           <div className="project-list">
           {Projects.map( p => {
             return(
-            <div key={p.projectName}>
+            <div key={p.projectName} className="project-item">
               <h2>{p.projectName}</h2>
-              <img src={p.imageURL} alt="project-logo" />
+              <img src={p.imageURL} alt="project-logo" className="project-img" />
               <p className="project-text">Developers: {p.developer.join(", ")}</p>
               <p className="project-text">Designers: {p.designer.join(", ")}</p>
             </div>)
