@@ -8,20 +8,19 @@ export default [
     {
         "projectName": "CSES WebDev",
         "imageURL": WebDevLogo,
-        "developer": ["Kevin Kim", "Angela Tsai", "Saleha Ahemdi, Sebstian Mejia"],
-        "designer": ["Swati Menon", "Rachel Paner"]
+        "developers": ["Kevin Kim", "Angela Tsai", "Saleha Ahemdi, Sebstian Mejia"],
+        "designers": ["Swati Menon", "Rachel Paner"]
     },
     {
         "projectName": "Tritones",
         "imageURL": TritonesLogo,
-        "developer": ["Ryan Rickey", "Nick Campos", "William Zhao, Shawn Malal"],
-        "designer": ["Anjili Mathi", "Sophia Fang"]
+        "developers": ["Ryan Rickey", "Nick Campos", "William Zhao, Shawn Malal"],
+        "designers": ["Anjili Mathi", "Sophia Fang"]
     },
     {
         "projectName": "Dollar Lunch Club",
         "imageURL": DLCLogo,
-        "developer": ["Snigdha Allada", "Julianna Hall", "Ketan Jain"],
-        "designer": ["Alexa Anderson"]
+        "developers": ["Snigdha Allada", "Julianna Hall", "Ketan Jain"],
+        "designers": ["Alexa Anderson"]
     }
-
 ]

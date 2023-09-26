@@ -1,7 +1,6 @@
 // Import Dependencies
 import "../styles/Footer.css";
 import { Link } from 'react-router-dom';
-import { IconContext } from 'react-icons';
 import { FaDiscord, FaInstagram, FaLinkedinIn} from 'react-icons/fa';
 
 /*

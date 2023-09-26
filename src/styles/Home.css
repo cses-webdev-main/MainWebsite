@@ -108,13 +108,14 @@
   height: 17vw;
 }
 
-.img-container {
+.img-container-project {
+    display: flex;
   position: relative;
   width: 25vw;
   height: 17vw;
 }
 
-.img-container:after {
+.img-container-project:after {
   z-index: 1;
   background-color: #5780BB;
   content:"";
@@ -176,11 +177,11 @@
     .icon-text{
         margin-bottom: 30px;
     }
-    .img-container {
+    .img-container-project {
         width: 250px;
         height: 170px;
     }
-    .img-container:after {
+    .img-container-project:after {
         border-radius: 10px;
     }
     .project-img {

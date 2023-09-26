@@ -45,11 +45,11 @@ function Home() {
             return(
             <div key={p.projectName} className="project-item">
               <h2 className="project-title">{p.projectName}</h2>
-              <div className="img-container">
+              <div className="img-container-project">
                 <img src={p.imageURL} alt="project-logo" className="project-img" />
               </div>
-              <p className="project-text">Developers: {p.developer.join(", ")}</p>
-              <p className="project-text">Designers: {p.designer.join(", ")}</p>
+              <p className="project-text">Developers: {p.developers.join(", ")}</p>
+              <p className="project-text">Designers: {p.designers.join(", ")}</p>
             </div>)
           })}
           </div>

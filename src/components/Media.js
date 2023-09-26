@@ -9,7 +9,7 @@ export default function Media () {
     return(
         <div className="media-page">
             <Navbar />
-            <h2>Calendar</h2>
+            <h2 style={{fontSize: "40px"}}>Calendar</h2>
             <div className="calendar"></div>
             <div className="connect-with-us">
                 <h3>Connect with us</h3>
