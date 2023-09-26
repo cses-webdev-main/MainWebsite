@@ -11,6 +11,7 @@ import AboutUs from './components/AboutUs';
 import Events from './components/Events';
 import Media from './components/Media';
 
+
 // Create router to redirect by refreshing (HashRouting is not supported for GitHub Pages)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -34,7 +35,6 @@ const router = createBrowserRouter([
   {
       basename: "/MainWebsite",
   },
-
 );
 
 // Render entire app, and use StrictMode to prevent bad compiling
