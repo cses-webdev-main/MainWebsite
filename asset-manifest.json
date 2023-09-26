@@ -1,16 +1,33 @@
 {
   "files": {
-    "main.css": "/MainWebsite/static/css/main.f3989d5e.css",
-    "main.js": "/MainWebsite/static/js/main.adf4e5eb.js",
+    "main.css": "/MainWebsite/static/css/main.7e3592c3.css",
+    "main.js": "/MainWebsite/static/js/main.b7cd0ff7.js",
     "static/js/787.da12b7e7.chunk.js": "/MainWebsite/static/js/787.da12b7e7.chunk.js",
+    "static/media/home_banner.png": "/MainWebsite/static/media/home_banner.dc53c13378542e669a03.png",
+    "static/media/about_img_3.png": "/MainWebsite/static/media/about_img_3.1eec070f1640c34f09d3.png",
+    "static/media/about_img_2.png": "/MainWebsite/static/media/about_img_2.b69c99fa411ce40f8d71.png",
     "static/media/cses-webdev-transparent.png": "/MainWebsite/static/media/cses-webdev-transparent.67b35dd024e1f0944e02.png",
+    "static/media/about_img_1.png": "/MainWebsite/static/media/about_img_1.ae3e66f93a7d0bcc5bf9.png",
+    "static/media/home_bg.png": "/MainWebsite/static/media/home_bg.fc617088999de78475e2.png",
+    "static/media/about_bg.png": "/MainWebsite/static/media/about_bg.85ec79072d1826343bc5.png",
+    "static/media/dlc_logo.png": "/MainWebsite/static/media/dlc_logo.11696678d16c583fd96a.png",
+    "static/media/manan_patel.png": "/MainWebsite/static/media/manan_patel.3667fcc77cfe76381225.png",
+    "static/media/shruti_bhamidipati.png": "/MainWebsite/static/media/shruti_bhamidipati.69ba99f685bb67700660.png",
+    "static/media/jheel_gandhi.png": "/MainWebsite/static/media/jheel_gandhi.2df7cfbc7572ed8e0781.png",
+    "static/media/sonia_fereidooni.png": "/MainWebsite/static/media/sonia_fereidooni.43fbfdbb279ae9df92a8.png",
+    "static/media/webdev_logo.png": "/MainWebsite/static/media/webdev_logo.be95041f0f15e09005ee.png",
+    "static/media/roshan_sood.png": "/MainWebsite/static/media/roshan_sood.d0998ffd4cb1ccff1cb4.png",
+    "static/media/design.svg": "/MainWebsite/static/media/design.2b4f4efa28e92d7627e579c2ae377a66.svg",
+    "static/media/tritones_logo.png": "/MainWebsite/static/media/tritones_logo.7ead957a2e4a08fa37b1.png",
+    "static/media/sustain.svg": "/MainWebsite/static/media/sustain.5f1a2b6eb160707a44a5dbe9d52d711c.svg",
+    "static/media/develop.svg": "/MainWebsite/static/media/develop.b93a49e4117933de4f9a5530ba3ae647.svg",
     "index.html": "/MainWebsite/index.html",
-    "main.f3989d5e.css.map": "/MainWebsite/static/css/main.f3989d5e.css.map",
-    "main.adf4e5eb.js.map": "/MainWebsite/static/js/main.adf4e5eb.js.map",
+    "main.7e3592c3.css.map": "/MainWebsite/static/css/main.7e3592c3.css.map",
+    "main.b7cd0ff7.js.map": "/MainWebsite/static/js/main.b7cd0ff7.js.map",
     "787.da12b7e7.chunk.js.map": "/MainWebsite/static/js/787.da12b7e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3989d5e.css",
-    "static/js/main.adf4e5eb.js"
+    "static/css/main.7e3592c3.css",
+    "static/js/main.b7cd0ff7.js"
   ]
 }
