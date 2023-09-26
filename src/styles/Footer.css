@@ -3,25 +3,41 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    min-width: 725px;
     width: 100%;
-    height: 90px;
+    height: 100px;
     justify-content: space-between;
 }
 
 #footerWebdev {
 	position: relative;
-	left: 25px;
+    font-size: 30px;
+	left: 30px;
 	color: #043174;
 }
 
 .footerText {
     position: relative;
-    right: 50px;
+    right: 40px;
 }
 
 .footerLinks {
     text-decoration: none;
-    margin-left: 50px;
+    margin-left: 25px;
     color: #043174;
+}
+
+.icon {
+    font-size: 35px;
+}
+
+@media (max-width: 850px) {
+	.footerContainer {
+        height: 75px;
+	}
+    #footerWebdev {
+        font-size: 15px;
+    }
+    .icon {
+        font-size: 25px;
+    }
 }

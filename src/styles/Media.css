@@ -1,6 +1,6 @@
 .media-page{
     text-align: center;
-    background-color: #234F8F;
+    background-image: linear-gradient(#043174, #5780BB);
     font-size: calc(10px + 2vmin);
     color: white;
 }
@@ -10,7 +10,7 @@
     border: solid white;
     border-radius: 10px;
     width: 50vw;
-    height: 50vh;
+    height: 30vw;
     background-color: #043174;
     margin:auto;
 }
@@ -26,9 +26,10 @@
 
 .icon-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
     flex-wrap: wrap;
-    width: 20vw;
+    width: 25w;
     margin: auto;
     margin-bottom: 1.5em;
 }
@@ -37,4 +38,17 @@
     color: white;
     height: 50px;
     width: 50px;
+}
+
+@media (max-width: 850px) {
+    .calendar {
+        width: 90vw;
+        height: 60vw;
+    }
+    .connect-with-us {
+        width: 60vw;
+    }
+    .icon-container {
+        width: 60vw;
+    }
 }
