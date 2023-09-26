@@ -1,10 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .aboutContainer {
-	background-color: black;
 	text-align: center;
+	background-image: linear-gradient(#043174, #234F8F);
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
-.aboutNavbar {
-	height: 100vh;
-	font-size: 30px;
-	color: white;
+.mission-container{
+	background-image: url("../images/about_images/about_bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: 50% 0%;
+	margin: 0;
+	width: 100%;
+	height: max-content;
+
+}
+
+.mission-statement{
+	width: 75vw;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.mission-content {
+    font-family: 'Lato', 'sans-serif';
+    font-size: 30px;
+    text-align: left;
+}
+
+.intro-container {
+	display: flex;
+    flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+    margin-bottom: 100px;
+}
+
+.intro-group {
+    display: flex;
+	width: 80vw;
+	margin-top: 4vw;
+	gap: 8vw;
+}
+
+.intro-text {
+    width: 47%;
+	text-align: left;
+}
+
+.intro-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.intro-content {
+    font-family: 'Lato', 'sans-serif';
+    font-size: 30px;
+}
+
+.img-container-about {
+	display: flex;
+    align-self: center;
+	align-items: center;
+    position: relative;
+	width: 35vw;
+	height: 18vw;
+}
+
+.img-about {
+    z-index: 100;
+	width: 35vw;
+	height: 18vw;
+}
+
+.img-container-about:after {
+    z-index: 1;
+    background-color: transparent;
+    content:"";
+    position:absolute;
+    left: -2vw;
+    right: 2vw;
+    top: -2vw;
+    bottom: 2vw;
+    border:2px solid;
+    border-radius: 1vw;
+}
+
+.team-container {
+	background-color: white;
+	display: flex;
+    flex-direction: column;
+	color: #03214F;
+	margin: auto;
+	padding: 5vw;
+}
+
+.team-titles {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.team-members {
+    display: flex;
+    flex-direction: row;
+	justify-content: center;
+    gap: 10vw;
+    row-gap: 5vw;
+	flex-wrap: wrap;
+}
+
+.team-photo {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 20vw;
+}
+
+.team-name {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.team-position {
+    font-size: 24px;
+}
+
+.team-links {
+    text-decoration: none;
+    color: #03214F;
+}
+
+.team-icon {
+    font-size: 30px;
+}
+
+.cohort-container {
+    background-color: #5780BB;
+	padding: 5vw 0 5vw 0;
+}
+
+.cohort-season {
+    margin-bottom: 75px;
+}
+
+.cohort-text p {
+    font-family: 'Lato', 'sans-serif';
+	margin: 0;
+}
+
+.cohort-group {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 1035px) {
+    .intro-content {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    .mission-content {
+        font-size: 16px;
+    }
+    .intro-group {
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro-text {
+        width: 80%;
+        text-align: left;
+    }
+    .img-container-about {
+        display: flex;
+        align-self: center;
+        align-items: center;
+        position: relative;
+        width: 75vw;
+        height: 38vw;
+    }
+    .img-about {
+        width: 75vw;
+        height: 38vw;
+    }
+    .team-photo {
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+    }
 }

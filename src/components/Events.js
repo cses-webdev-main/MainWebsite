@@ -1,14 +1,16 @@
 // Import Dependencies
 import '../styles/Events.css';
-import Navbar from './Navbar';
+import Navbar from './Navbar.js';
+import Footer from './Footer.js';
 
 function Events() {
   return (
     <div className="eventsContainer">
-      <header className="eventsNavbar">
         <Navbar />
-
-      </header>
+        <div className="events-body">
+            <p className="events-title">Upcoming Events</p>
+        </div>
+        <Footer />
     </div>
   );
 }
